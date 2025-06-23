@@ -1,0 +1,125 @@
+[com.deepin.wrap.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/default_background.jpg'
+primary-color='#000000'
+secondary-color='#023c88'
+
+[com.deepin.wrap.gnome.desktop.interface]
+cursor-theme='bloom'
+gtk-im-module='fcitx'
+gtk-key-theme='Default'
+gtk-theme='deepin'
+icon-theme='bloom'
+
+[com.deepin.wrap.gnome.desktop.sound]
+event-sounds=true
+theme-name='deepin'
+
+[com.deepin.wrap.gnome.desktop.wm.keybindings]
+close=['<Alt>F4']
+cycle-group=[]
+cycle-group-backward=[]
+cycle-panels=[]
+cycle-panels-backward=[]
+cycle-windows=[]
+cycle-windows-backward=[]
+maximize=['<Super>Up']
+minimize=['<Super>N']
+move-to-monitor-down=[]
+move-to-monitor-left=[]
+move-to-monitor-right=[]
+move-to-monitor-up=[]
+move-to-workspace-1=['<Super><Shift>1', '<Super><Shift>KP_1']
+move-to-workspace-2=['<Super><Shift>2', '<Super><Shift>KP_2']
+move-to-workspace-3=['<Super><Shift>3', '<Super><Shift>KP_3']
+move-to-workspace-4=['<Super><Shift>4', '<Super><Shift>KP_4']
+move-to-workspace-5=['<Super><Shift>5', '<Super><Shift>KP_5']
+move-to-workspace-6=['<Super><Shift>6', '<Super><Shift>KP_6']
+move-to-workspace-7=['<Super><Shift>7', '<Super><Shift>KP_7']
+move-to-workspace-8=['<Super><Shift>8', '<Super><Shift>KP_8']
+move-to-workspace-9=['<Super><Shift>9', '<Super><Shift>KP_9']
+move-to-workspace-down=[]
+move-to-workspace-left=['<Super><Shift>Left']
+move-to-workspace-right=['<Super><Shift>Right']
+move-to-workspace-up=[]
+panel-main-menu=[]
+panel-run-dialog=[]
+show-desktop=['<Super>D']
+switch-applications=['<Alt>Tab']
+switch-applications-backward=['<Alt><Shift>Tab']
+switch-group=['<Alt>Above_Tab']
+switch-group-backward=['<Alt><Shift>Above_Tab']
+switch-input-source=[]
+switch-input-source-backward=[]
+switch-panels=['<Control><Alt>Tab']
+switch-to-workspace-1=['<Super>1', '<Super>KP_1']
+switch-to-workspace-2=['<Super>2', '<Super>KP_2']
+switch-to-workspace-3=['<Super>3', '<Super>KP_3']
+switch-to-workspace-4=['<Super>4', '<Super>KP_4']
+switch-to-workspace-5=['<Super>5', '<Super>KP_5']
+switch-to-workspace-6=['<Super>6', '<Super>KP_6']
+switch-to-workspace-7=['<Super>7', '<Super>KP_7']
+switch-to-workspace-8=['<Super>8', '<Super>KP_8']
+switch-to-workspace-9=['<Super>9', '<Super>KP_9']
+switch-to-workspace-down=[]
+switch-to-workspace-left=['<Super>Left']
+switch-to-workspace-right=['<Super>Right']
+switch-to-workspace-up=[]
+switch-windows=[]
+switch-windows-backward=[]
+toggle-maximized=['<Super>M', '<Alt>F10']
+toggle-on-all-workspaces=[]
+unmaximize=['<Super>Down']
+
+[com.deepin.wrap.gnome.desktop.wm.preferences]
+audible-bell=false
+mouse-button-modifier=''
+theme='deepin'
+
+[com.deepin.wrap.gnome.metacity]
+theme='deepin'
+
+[com.deepin.wrap.gnome.mutter]
+auto-maximize=false
+overlay-key=''
+
+[com.deepin.wrap.gnome.mutter.keybindings]
+toggle-tiled-left=[]
+toggle-tiled-right=[]
+
+[com.deepin.wrap.pantheon.desktop.gala.appearance]
+button-layout=':minimize,maximize,close'
+
+[com.deepin.wrap.pantheon.desktop.gala.behavior]
+dock-names=['plank']
+dynamic-workspaces=false
+hotcorner-bottomleft='none'
+hotcorner-bottomright='none'
+hotcorner-custom-command=''
+hotcorner-topleft='none'
+hotcorner-topright='none'
+panel-main-menu-action=''
+window-overview-type='grid'
+
+[com.deepin.wrap.pantheon.desktop.gala.keybindings]
+cycle-workspaces-next=[]
+cycle-workspaces-previous=[]
+expose-all-windows=['<Super>A']
+expose-windows=['<Super>W']
+move-to-workspace-first=['<Super><Shift>Home', '<Control><Alt><Shift>Home']
+move-to-workspace-last=['<Super><Shift>End', '<Control><Alt><Shift>End']
+preview-workspace=['<Super>S']
+switch-input-source=[]
+switch-input-source-backward=[]
+switch-to-workspace-first=['<Super>Home', '<Control><Alt>Home']
+switch-to-workspace-last=['<Super>End', '<Control><Alt>End']
+zoom-in=['<Super>plus', '<Super>KP_Add']
+zoom-out=['<Super>minus', '<Super>KP_Subtract']
+
+[com.deepin.dde.launcher]
+apps-order=['uos-browser', 'dde-file-manager', 'deepin-app-store', 'deepin-appstore', 'deepin-music', 'deepin-movie', 'deepin-screen-recorder', 'deepin-image-viewer', 'deepin-album', 'deepin-draw', 'deepin-reader', 'deepin-editor', 'deepin-mail', 'deepin-terminal', 'deepin-contacts', 'deepin-voice-note', 'uos-downloadmanager', 'deepin-manual', 'org.deepin.scanner', 'dde-computer', 'dde-trash', 'dde-control-center', 'deepin-defender', 'fcitx-config-gtk3', 'deepin-system-monitor', 'deepin-boot-maker', 'deepin-devicemanager', 'deepin-log-viewer', 'dde-printer', 'dde-calendar', 'deepin-calculator', 'deepin-font-manager', 'deepin-compressor', 'deepin-deb-installer', 'deepin-diskmanager', 'deepin-camera', 'dde-introduction']
+apps-order-zh-cn=['uos-browser', 'dde-file-manager', 'deepin-app-store', 'deepin-appstore', 'deepin-music', 'deepin-movie', 'deepin-screen-recorder', 'deepin-image-viewer', 'deepin-album', 'deepin-draw', 'deepin-reader', 'deepin-editor', 'deepin-mail', 'deepin-terminal', 'deepin-contacts', 'deepin-voice-note', 'uos-downloadmanager', 'deepin-manual', 'org.deepin.scanner', 'dde-computer', 'dde-trash', 'dde-control-center', 'deepin-defender', 'fcitx-config-gtk3', 'deepin-system-monitor', 'deepin-boot-maker', 'deepin-devicemanager', 'deepin-log-viewer', 'dde-printer', 'dde-calendar', 'deepin-calculator', 'deepin-font-manager', 'deepin-compressor', 'deepin-deb-installer', 'deepin-diskmanager', 'deepin-camera', 'dde-introduction']
+apps-order-zh-tw=['uos-browser', 'dde-file-manager', 'deepin-app-store', 'deepin-appstore', 'deepin-music', 'deepin-movie', 'deepin-screen-recorder', 'deepin-image-viewer', 'deepin-album', 'deepin-draw', 'deepin-reader', 'deepin-editor', 'deepin-mail', 'deepin-terminal', 'deepin-contacts', 'deepin-voice-note', 'uos-downloadmanager', 'deepin-manual', 'org.deepin.scanner', 'dde-computer', 'dde-trash', 'dde-control-center', 'deepin-defender', 'fcitx-config-gtk3', 'deepin-system-monitor', 'deepin-boot-maker', 'deepin-devicemanager', 'deepin-log-viewer', 'dde-printer', 'dde-calendar', 'deepin-calculator', 'deepin-font-manager', 'deepin-compressor', 'deepin-deb-installer', 'deepin-diskmanager', 'deepin-camera', 'dde-introduction']
+
+[org.gnome.gedit.preferences.encodings]
+candidate-encodings=['UTF-8','GB18030','GB2312','GBK','gbk','BIG5','big5','CURRENT','UTF-16']
+
