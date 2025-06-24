@@ -35,7 +35,7 @@ install:
 	mkdir -p ${DESTDIR}/usr/share/dsg/configs/overrides
 	cp -r ./files/configs/overrides/* ${DESTDIR}/usr/share/dsg/configs/overrides/
 clean:
-	-rm -rf bin
-	-rm -rf result
+	rm -rf bin
+	rm -rf result
 
 .PHONY: bin
