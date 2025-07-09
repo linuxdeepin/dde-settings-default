@@ -1,0 +1,46 @@
+version = 1
+SPDX-PackageName = "deepin-desktop-schemas"
+SPDX-PackageSupplier = "UnionTech Software Technology Co., Ltd. <>"
+SPDX-PackageDownloadLocation = "https://github.com/linuxdeepin/deepin-desktop-schemas"
+
+[[annotations]]
+path = [".github/**", ".gitlab-ci.yml", ".obs/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["README.md", "README.zh_CN.md", "CHANGELOG.md", "overrides/**README.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "UnionTech Software Technology Co., Ltd."
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["schemas/**.xml", "overrides/**.override", "deepin-app-store/**.ini", "deepin-appstore/**.ini"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "UnionTech Software Technology Co., Ltd."
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["rpm/**", "debian/**", "archlinux/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [".packit.yaml", "Makefile", "schemas/wrap/fix_deepin_gsettings.sh", ".gitignore", ".tx/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "UnionTech Software Technology Co., Ltd."
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["go.mod", "go.sum"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "files/configs/overrides/**.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "UnionTech Software Technology Co., Ltd."
+SPDX-License-Identifier = "CC-BY-4.0"

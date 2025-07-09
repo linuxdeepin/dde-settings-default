@@ -26,6 +26,6 @@ Breaks: dde-daemon (<< 2.92.2),
         startdde (<< 2.91.0),
         deepin-wm (<< 0.2.1),
         deepin-default-gsettings
-Description: GSettings deepin desktop-wide schemas
- deepin-desktop-schemas contains a collection of GSettings schemas for
- settings shared by various components of a desktop.
+Description: Default settings for deepin desktop environment
+ This package contains a collection of default settings for deepin desktop 
+ environment

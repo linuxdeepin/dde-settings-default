@@ -1,6 +1,9 @@
 # dde-settings-default
 
-This repo is aimed to replace the old [deepin-desktop-schemas](https://github.com/linuxdeepin/deepin-desktop-schemas) and [deepin-osconfig](https://github.com/linuxdeepin/deepin-osconfig), since these two repos are all managing DDE desktop settings, their functionality have overlapped. See [discussion](https://github.com/orgs/linuxdeepin/discussions/11769).
+This package contains a collection of default settings for deepin desktop
+environment.
+
+> This repo is aimed to replace the old [deepin-desktop-schemas](https://github.com/linuxdeepin/deepin-desktop-schemas) and [deepin-osconfig](https://github.com/linuxdeepin/deepin-osconfig), since these two repos are all managing DDE desktop settings, their functionality have overlapped. See [discussion](https://github.com/orgs/linuxdeepin/discussions/11769).
 
 ## Getting help
 
